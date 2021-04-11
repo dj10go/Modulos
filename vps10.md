@@ -33,8 +33,8 @@ tput cnorm
 #rm -rf /etc/VpsPackdir
 vp="/etc/VpsPackdir"
 echo -e "\e[1;31m ESPERE POR FAVOR......."
-echo -e "\e[1;31m ATENCION POR FAVOR.......\n ESTE SCRIPT INSTALARÁ EL APACHE AL 85\n "
-read -p "DESEA CONTINUAR CON LA INSTALACION (s/n)?: " responder
+echo -e "\e[1;31m ATENCION POR FAVOR.......\n 🏁🏁 ya casi.. enter y seguimos 5\n "
+read -p "Escribir S y continuar🐸 (s/n)?: " responder
 if [[ "$responder" = 's' ]]; then
 
 if [ $(id -u) != 0 ]
@@ -48,7 +48,7 @@ cd /root
 #extrallendo
 #SCRIPT SOLO PARA TESTEO : PUEDA QUE SALGA ALGUN ERROR..., NOTIFIQUELO AL GRUPO @
 
-#reventado por : fulano
+#reventado por : fulano🐥🦉
 
 iniciar(){
 mkdir /etc/vp &>/dev/null
@@ -57,7 +57,7 @@ wget https://raw.githubusercontent.com/lacasitamx/vpspack5.8/master/source/clean
 unzip clean.zip &>/dev/null
 cp pack/* ${vp}/
 chmod +x ${vp}/*
-echo -e " codigo extraido con exito "
+echo -e " codigo extraido con exito😋😋 "
 rm -rf /etc/vp/clean.zip
 rm -rf /etc/pack
 sleep 2
@@ -71,12 +71,12 @@ unzip rebin.zip &>/dev/null
 cp rebin/* /bin/
 
 chmod +x /bin/vpspack /bin/toolmaster /bin/renovarusuario /bin/redefinirusuario /bin/deletarusuario /bin/criarusuario /bin/limite /bin/speedtest.py /bin/instaladores
-echo -e " bin extraido con exito 😎 "
+echo -e " bin extraido con exito 😎😎🐸🐸🐝😎 "
 sleep 2
 rm -rf /etc/vp
 cd /root
 }
-echo -e "\e[43m OK... ESPERE UN MOMENTU😴😴uu>\e[0m"
+echo -e "\e[43m OK... ESPERE UN MOMENTU😴😴🐴🐴uu>\e[0m"
 echo ""
 fun_bar 'apt-get install zip -y'
 fun_bar 'apt-get install unzip -y'
@@ -84,12 +84,12 @@ iniciar
 cat /etc/VpsPackdir/logo
 echo -e "[\033[1;31m-\033[1;33m]\033[1;30m ───────────────────────────────────────\033[1;33m"
 echo -e "\033[1;33mInstalando \033[1;32mVPSPack $vpspackversion\033[0m"
-echo -e "\033[1;33mEspere por favor\033[0m"
-echo -e "\033[1;33mSe instalaran los paquetes necesarios\033[0m"
+echo -e "\033[1;33mEspere por favor🤔🤔\033[0m"
+echo -e "\033[1;33mSe instalaran los paquetes necesarios🙂🙂\033[0m"
 echo -e "\033[1;33mGrupo de Telegram: @vps10 & @diegovip7\033[0m"
 echo -e "[\033[1;31m-\033[1;33m]\033[1;30m ───────────────────────────────────────\033[1;33m"
 sleep 5
-echo -e "[\033[1;31m-\033[1;33m]\033[1;30m Preparando Sistema\033[1;33m"
+echo -e "[\033[1;31m-\033[1;33m]\033[1;30m Preparando Sistema 😋😋\033[1;33m"
 function preparar(){
 touch /root/usuarios.db
 touch /root/badvpn.log
@@ -117,7 +117,7 @@ chmod +x /root/dropbear
 }
 fun_bar 'preparar'
 function paquetes(){
-echo -e "[\033[1;31m-\033[1;33m]\033[1;30m Instalando Paquetes√√√\033[1;33m"
+echo -e "[\033[1;31m-\033[1;33m]\033[1;30m Instalando Paquetes ✈✈√√√\033[1;33m"
 sed -i '/neofetch/d' /etc/apt/sources.list
 apt-get update
 apt-get -y install nano 1> /dev/null 2> /dev/null
@@ -151,7 +151,7 @@ cd /root
 service apache2 restart 1> /dev/null 2> /dev/null
 mkdir /var/www/html/openvpn
 apt-get install -y neofetch 1> /dev/null 2> /dev/null
-echo -e "[\033[1;31m-\033[1;33m]\033[1;30m Instalacion Finalizada √√♬♬\033[1;33m"
+echo -e "[\033[1;31m-\033[1;33m]\033[1;30m 🐞🌲Instalacion Finalizada🐸🐝 √√♬♬\033[1;33m"
 }
 fun_bar 'paquetes'
 iniciarbin
@@ -185,12 +185,12 @@ echo -e "\033[1;32mOpcion 2    \033[1;30mADMINISTRACION DE USUARIOS"
 echo -e "\033[1;32mOpcion 8    \033[1;30mPUERTOS HABILITADOS"
 echo -e "\033[1;32mOpcion 9    \033[1;30mHERRAMIENTAS"
 echo -e "\033[1;32mOpcion 10   \033[1;30mINSTALADORES"
-echo -e "\033[1;32m@- \033[1;30mcréditos : @PwrMX\033[0m"
-echo -e "\033[1;32m@- \033[1;31mREV: : illuminati\033[0m"
-echo -e "\033[1;32m@- \033[1;31mBY TEAM ILUMINATIS\033[0m"
+echo -e "\033[1;32m@- \033[1;30mcréditos : pepa pick 🤣🤣 \033[0m"
+echo -e "\033[1;32m@- \033[1;31mREV: :bob sponja 🐥🦉\033[0m"
+echo -e "\033[1;32m@- \033[1;31mBY TEAM pepa pick 🐴🐑\033[0m"
 echo -e "\033[1;32mVersion     \033[1;30m$vpspackversion \033[0m"
 echo -e "$fecha" >> /etc/VpsPackdir/fecha
-echo -e "\033[1;32m Personalizacion - Escribe tu Nick☆☆:\033[0m"
+echo -e "\033[1;32m Personalizacion - 🇦🇷 Escribe tu Nick 🇦🇷☆☆:\033[0m"
 echo -e "\033[1;32m (Maximo 10 Caracteres)\033[0m"
 read -p ": " nickname
 echo "$nickname" >> /root/name

@@ -165,12 +165,12 @@ echo 'cat /etc/VpsPackdir/logo' >> .bashrc
 echo 'DATE=$(date +"%d-%m-%y")' >> .bashrc
 echo 'TIME=$(date +"%T")' >> .bashrc
 echo 'echo -e ""' >> .bashrc
-echo 'echo -e "Nombre del Servidor : $HOSTNAME"' >> .bashrc
-echo 'echo -e "Fecha del Servidor : $DATE"' >> .bashrc
-echo 'echo -e "Hora del Servidor : $TIME"' >> .bashrc
+echo 'echo -e "Nombre del Servidor 🙂🐥 : $HOSTNAME"' >> .bashrc
+echo 'echo -e "Fecha del Servidor🐴🦉 : $DATE"' >> .bashrc
+echo 'echo -e "Hora del Servidor🇦🇷 : $TIME"' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 echo 'echo -e "Bienvenido! a script vps10"' >> .bashrc
-echo 'echo -e "Teclee vpspack para ver el listado de comandos."' >> .bashrc
+echo 'echo -e "Teclee vpspack para ingresar✏✏🖌."' >> .bashrc
 echo 'echo -e ""' >> .bashrc
 fi
 clear
